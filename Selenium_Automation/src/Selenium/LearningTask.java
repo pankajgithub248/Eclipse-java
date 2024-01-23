@@ -35,6 +35,7 @@ public class LearningTask {
         driver.findElement(By.xpath("//div[@class='cp_result-item__body']//p[@class='cp_result-item__title']//strong[text()='12 Monkey']")).click();
         driver.findElement(By.xpath("//button[@id='cp_tab__button-2']")).click();
       driver.findElement(By.xpath("//div[@class='cp_tile__overlay']//h2[text()='1. Year of the Monkey']")).click();
+	    system.out.println("Eclipse testing");
         //String[] videotitle= {"The monkey:Series 2:Episode 1","The monkey:Series 2:Episode 2","The monkey:Series 2:Episode 3"};
         
         
